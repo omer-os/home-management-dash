@@ -14,7 +14,9 @@
   import Switch from "../ui/switch/switch.svelte";
 </script>
 
-<Card class="py-0 flex-1 flex flex-col overflow-hidden relative">
+<Card
+  class="py-0 md:min-h-auto min-h-[23em] flex-1 flex flex-col overflow-hidden relative"
+>
   <div class="flex gap-2 p-4 pb-2 items-center">
     <div
       class="rounded-full flex items-center justify-center h-12 w-12 bg-secondary"

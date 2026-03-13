@@ -50,7 +50,6 @@
           <span class="text-xs text-muted-foreground">Intensity</span>
         </div>
       </CirclarSlider>
-
       <div class="flex flex-col items-center gap-1">
         <span class="text-xs text-muted-foreground">Max</span>
         <Button

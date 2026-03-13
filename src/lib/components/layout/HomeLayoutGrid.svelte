@@ -10,7 +10,7 @@
   } = $props();
 </script>
 
-<div class="flex flex-col flex-1 w-full gap-4">
+<div class="flex flex-col md:flex-1 w-full gap-4 md:pb-0 pb-20">
   <section
     class="md:grid flex flex-col md:overflow-hidden gap-4 md:flex-3/5 grid-cols-4 grid-rows-2 w-full"
   >

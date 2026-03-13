@@ -12,10 +12,10 @@
 
   <DashLeftPanel />
   <main class="p-4 flex overflow-hidden">
-    <main class="flex flex-1 overflow-scroll rounded-4xl">
+    <main class="md:flex flex-1 overflow-scroll rounded-4xl">
       {@render children()}
       <div
-        class="absolute bg-linear-0 from-background via-background to-transparent z-10 bottom-0 right-0 left-0 h-14"
+        class="absolute md:hidden bg-linear-0 from-background via-background to-transparent z-10 bottom-0 right-0 left-0 h-14"
       ></div>
     </main>
   </main>
