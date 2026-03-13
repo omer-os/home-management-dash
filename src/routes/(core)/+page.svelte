@@ -1,5 +1,6 @@
 <script>
-    import HomeLiveFeedCard from "$lib/components/cards/HomeLiveFeedCard.svelte";
+  import HomeLiveFeedCard from "$lib/components/cards/HomeLiveFeedCard.svelte";
+  import HomeWifiCard from "$lib/components/cards/HomeWifiCard.svelte";
   import HomeLayoutGrid from "$lib/components/layout/HomeLayoutGrid.svelte";
   import Card from "$lib/components/ui/card/card.svelte";
 </script>
@@ -7,7 +8,7 @@
 <HomeLayoutGrid>
   {#snippet overview()}
     <HomeLiveFeedCard />
-    <Card></Card>
+    <HomeWifiCard />
     <Card></Card>
     <Card class="col-span-2"></Card>
   {/snippet}
