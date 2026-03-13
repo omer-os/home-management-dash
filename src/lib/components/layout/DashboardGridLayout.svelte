@@ -11,7 +11,7 @@
   <DashNavbar />
 
   <DashLeftPanel />
-  <main class="p-4 ps-0">
+  <main class="p-4 ps-0 flex overflow-scroll">
     {@render children()}
   </main>
 </div>
