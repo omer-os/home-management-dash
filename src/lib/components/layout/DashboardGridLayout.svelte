@@ -11,12 +11,12 @@
   <DashNavbar />
 
   <DashLeftPanel />
-  <main class="p-4 flex overflow-hidden">
-    <main class="md:flex flex-1 overflow-scroll rounded-4xl">
+  <main class="p-4 md:pt-4 pt-0 flex overflow-hidden">
+    <div class="md:flex flex-1 overflow-scroll rounded-4xl">
       {@render children()}
       <div
         class="absolute md:hidden bg-linear-0 from-background via-background to-transparent z-10 bottom-0 right-0 left-0 h-14"
       ></div>
-    </main>
+    </div>
   </main>
 </div>

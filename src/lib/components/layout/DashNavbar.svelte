@@ -9,22 +9,16 @@
   } from "@lucide/svelte";
   import Button from "$lib/components/ui/button/button.svelte";
   import Input from "$lib/components/ui/input/input.svelte";
-
-  let dark = $state(true);
-
-  function toggleTheme() {
-    dark = !dark;
-    document.documentElement.classList.toggle("dark", dark);
-  }
+  import { mode, toggleMode } from "mode-watcher";
 </script>
 
 <nav class="flex w-full col-span-2 items-center justify-between px-6 py-4">
   <div class="flex items-center gap-2">
     <Sparkles size={20} class="text-orange-500 fill-orange-500" />
-    <span class="text-lg font-semibold">Smart Home</span>
+    <span class="text-lg font-semibold md:relative hidden">Smart Home</span>
   </div>
 
-  <div class="relative w-full max-w-md mx-8">
+  <div class="relative w-full max-w-md md:mx-8 mx-2">
     <Search
       size={16}
       class="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
@@ -38,18 +32,14 @@
   <div class="flex items-center gap-3">
     <div class="flex items-center bg-secondary rounded-full p-1">
       <button
-        class="rounded-full p-2 transition-colors {dark
-          ? 'bg-foreground text-background'
-          : ''}"
-        onclick={toggleTheme}
+        class="rounded-full dark:bg-foreground dark:text-background p-2 transition-colors"
+        onclick={toggleMode}
       >
         <Moon size={16} />
       </button>
       <button
-        class="rounded-full p-2 transition-colors {!dark
-          ? 'bg-foreground text-background'
-          : ''}"
-        onclick={toggleTheme}
+        class="rounded-full bg-foreground text-background dark:bg-inherit dark:text-inherit p-2 transition-colors"
+        onclick={toggleMode}
       >
         <Sun size={16} />
       </button>
