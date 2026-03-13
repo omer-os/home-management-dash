@@ -5,7 +5,9 @@
   import Slider from "../ui/slider/slider.svelte";
 </script>
 
-<Card class="col-span-2 py-4 gap-3 px-4 flex-row h-full overflow-hidden">
+<Card
+  class="col-span-2 py-4 gap-3 px-4 md:flex-row flex-col md:h-full overflow-hidden"
+>
   <div class="aspect-square rounded-3xl overflow-hidden">
     <img
       src="https://i.imgur.com/TJcm7T0.jpeg"

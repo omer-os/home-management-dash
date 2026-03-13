@@ -12,7 +12,7 @@
 </script>
 
 <Card
-  class="relative p-3 col-span-2 flex gap-2 items-center justify-between row-span-2 overflow-hidden"
+  class="relative p-3 col-span-2 flex gap-2 items-center justify-between row-span-2 overflow-hidden md:h-auto h-[30em]"
 >
   <img
     src="https://i.pinimg.com/1200x/63/1a/ee/631aee73a43d43baebb0775867960b69.jpg"
