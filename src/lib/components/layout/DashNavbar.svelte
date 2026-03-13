@@ -9,7 +9,7 @@
   } from "@lucide/svelte";
   import Button from "$lib/components/ui/button/button.svelte";
   import Input from "$lib/components/ui/input/input.svelte";
-  import { mode, toggleMode } from "mode-watcher";
+  import { toggleMode } from "mode-watcher";
 </script>
 
 <nav class="flex w-full col-span-2 items-center justify-between px-6 py-4">
@@ -55,9 +55,9 @@
       <img
         src="https://i.pravatar.cc/32?img=12"
         alt="avatar"
-        class="h-8 w-8 rounded-full object-cover"
+        class="h-8 min-w-8 w-8 rounded-full object-cover"
       />
-      <div class="flex flex-col text-left">
+      <div class="flex md:relative hidden flex-col text-left">
         <span class="text-sm font-medium leading-tight">Ethan Maxwell</span>
         <span class="text-xs text-muted-foreground leading-tight">Admin</span>
       </div>
