@@ -5,7 +5,7 @@
   import Card from "../ui/card/card.svelte";
 </script>
 
-<Card class="py-0 flex flex-col overflow-hidden relative">
+<Card class="py-0  gap-0 flex flex-col overflow-hidden relative">
   <div class="h-[5em] flex gap-2 p-4">
     <div
       class="rounded-full flex items-center justify-center h-12 w-12 bg-secondary"

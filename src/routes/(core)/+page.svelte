@@ -1,6 +1,9 @@
 <script>
+  import HomeAirContainerCard from "$lib/components/cards/HomeAirContainerCard.svelte";
+  import HomeBluetoothSpeakerCard from "$lib/components/cards/HomeBluetoothSpeakerCard.svelte";
+  import HomeLightingCard from "$lib/components/cards/HomeLightingCard.svelte";
   import HomeLiveFeedCard from "$lib/components/cards/HomeLiveFeedCard.svelte";
-    import HomeMusicPlayerCard from "$lib/components/cards/HomeMusicPlayerCard.svelte";
+  import HomeMusicPlayerCard from "$lib/components/cards/HomeMusicPlayerCard.svelte";
   import HomeTempCard from "$lib/components/cards/HomeTempCard.svelte";
   import HomeWifiCard from "$lib/components/cards/HomeWifiCard.svelte";
   import HomeLayoutGrid from "$lib/components/layout/HomeLayoutGrid.svelte";
@@ -15,8 +18,8 @@
     <HomeMusicPlayerCard />
   {/snippet}
   {#snippet controls()}
-    <Card class="flex-1 h-full"></Card>
-    <Card class="flex-1 h-full"></Card>
-    <Card class="flex-1 h-full"></Card>
+    <HomeLightingCard />
+    <HomeBluetoothSpeakerCard />
+    <HomeAirContainerCard />
   {/snippet}
 </HomeLayoutGrid>

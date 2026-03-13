@@ -1,11 +1,9 @@
 <script>
   import { Sun, WifiIcon } from "@lucide/svelte";
-  import CardContent from "../ui/card/card-content.svelte";
-  import CardHeader from "../ui/card/card-header.svelte";
   import Card from "../ui/card/card.svelte";
 </script>
 
-<Card class="py-0 flex flex-col overflow-hidden relative">
+<Card class="py-0 flex flex-col overflow-hidden gap-0 relative">
   <div class="h-[5em] flex gap-2 p-4">
     <div
       class="rounded-full flex items-center justify-center h-12 w-12 bg-secondary"
