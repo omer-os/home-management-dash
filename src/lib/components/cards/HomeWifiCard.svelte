@@ -1,7 +1,5 @@
 <script>
   import { WifiIcon } from "@lucide/svelte";
-  import CardContent from "../ui/card/card-content.svelte";
-  import CardHeader from "../ui/card/card-header.svelte";
   import Card from "../ui/card/card.svelte";
 </script>
 
@@ -13,6 +11,11 @@
       <WifiIcon />
     </div>
 
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
     <div class="flex flex-col">
       <p class="font-bold text-xl">Wifi</p>
       <p class="text-muted-foreground text-sm">Hmome_Pulse 5G</p>

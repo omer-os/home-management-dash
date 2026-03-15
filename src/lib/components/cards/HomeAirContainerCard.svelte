@@ -1,13 +1,5 @@
 <script>
-  import {
-    AirVent,
-    Gauge,
-    Settings2,
-    Snowflake,
-    Sun,
-    Timer,
-    WifiIcon,
-  } from "@lucide/svelte";
+  import { AirVent, Gauge, Settings2, Snowflake, Timer } from "@lucide/svelte";
   import Card from "../ui/card/card.svelte";
   import Button from "../ui/button/button.svelte";
   import CirclarSlider from "../ui/CirclarSlider.svelte";
