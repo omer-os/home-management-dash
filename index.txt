@@ -1,0 +1,86 @@
+{
+  "name": "OMAR CHATIN ABDULKAREEM",
+  "titleLine": "React Front-End Developer",
+  "phone": "+9647710697645",
+  "location": "Kirkuk, Iraq",
+  "email": "omerchetin19@gmail.com",
+  "links": [
+    { "id": "1", "label": "LinkedIn", "href": "https://linkedin.com/in/omarchatin" },
+    { "id": "2", "label": "GitHub", "href": "https://github.com/omarchatin" }
+  ],
+  "summary": "Frontend developer with 4+ years of production experience building responsive, data-rich React and TypeScript applications. Skilled in translating complex requirements into polished, intuitive interfaces with strong focus on performance, security, and cross-device optimization. Experienced with reusable component libraries, secure API integration, state management, and mobile-ready web experiences including React Native.",
+  "skillsTitle": "Skills & Technologies",
+  "skills": [
+    { "id": "1", "label": "Frontend", "value": "React, Next.js, TypeScript, TailwindCSS, shadcn/ui, Framer Motion, SvelteKit, Vite, SSR, ISR, Responsive Design, RTL UI" },
+    { "id": "2", "label": "State & Data", "value": "React Query (TanStack Query), Jotai, Zustand, REST APIs, OpenAPI/Orval, Async Data Patterns, Data Visualization" },
+    { "id": "3", "label": "Mobile & Cross-Platform", "value": "React Native, Expo, PWA, iOS-Optimized Web, Responsive Layouts" },
+    { "id": "4", "label": "Security & DevOps", "value": "JWT Authentication, RBAC, API Security, GitHub Actions, CI/CD, Railway" },
+    { "id": "5", "label": "Design & Tools", "value": "Figma, Git, GitHub, Neovim, Trello, Notion" }
+  ],
+  "expTitle": "Work Experience",
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Full Stack Developer | Rasil — rasil.store (2025 - Present)",
+      "bullets": [
+        { "id": "1", "text": "Built the full frontend of a production SaaS platform using React and TypeScript, with strong focus on polished UI, fast load times, and merchant usability." },
+        { "id": "2", "text": "Developed highly responsive, SEO-friendly storefronts using Next.js SSR and ISR, optimized for desktop, tablet, and mobile devices." },
+        { "id": "3", "text": "Integrated secure, typed APIs via OpenAPI and Orval to ensure reliable data flow between frontend and backend services." },
+        { "id": "4", "text": "Implemented 4-language, RTL-friendly support using next-intl across all merchant-facing interfaces and dashboards." }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Founder & Lead Developer | Kitly — moon.kitly.menu (2023 - Present)",
+      "bullets": [
+        { "id": "5", "text": "Built and launched a complete SaaS platform for restaurants and cafes, now running for 10+ real businesses with responsive admin dashboards and data-driven product flows." },
+        { "id": "6", "text": "Delivered a responsive PWA with offline support and iOS-optimized experience, serving hundreds of users daily." },
+        { "id": "7", "text": "Designed reusable component libraries and implemented role-based access control for multi-tenant authentication." }
+      ],
+      "links": [
+        { "id": "1", "label": "iqdwiki.com", "href": "https://iqdwiki.com" },
+        { "id": "2", "label": "github", "href": "https://github.com/iraq-developers/IQD-Wiki" }
+      ],
+    },
+    {
+      "id": "3",
+      "title": "Frontend Web Developer | Qasah (2021 - Dec 2025)",
+      "bullets": [
+        { "id": "8", "text": "Built responsive dashboards and internal B2B SaaS interfaces for business intelligence workflows, translating complex data requirements into clean, usable UI." },
+        { "id": "9", "text": "Worked on complex forms, data-heavy interfaces, and API-integrated features with strong focus on component structure and maintainability." },
+        { "id": "10", "text": "Implemented multilingual, RTL-friendly interfaces with responsive layouts optimized across devices." }
+      ],
+      "links": [
+        { "id": "1", "label": "iqdwiki.com", "href": "https://iqdwiki.com" },
+        { "id": "2", "label": "github", "href": "https://github.com/iraq-developers/IQD-Wiki" }
+      ],
+    }
+  ],
+  "projTitle": "Featured Projects",
+  "projects": [
+    {
+      "id": "1",
+      "name": "IQD Wiki",
+      "links": [
+        { "id": "1", "label": "iqdwiki.com", "href": "https://iqdwiki.com" },
+        { "id": "2", "label": "github", "href": "https://github.com/iraq-developers/IQD-Wiki" }
+      ],
+      "description": "An open-source community project helping developers in Iraq learn programming through shared knowledge and practical content.",
+      "bullets": [
+        { "id": "11", "text": "Contributed to frontend and backend development as part of a multi-developer open-source project." },
+        { "id": "12", "text": "Built issue submission workflow from the website to GitHub, improving content feedback and tracking." },
+        { "id": "13", "text": "Integrated Telegram API and GitHub Actions for automated issue notifications to the team." }
+      ]
+    }
+  ],
+  "eduTitle": "Education",
+  "education": [
+    { "id": "1", "text": "Bachelor's degree in Dental Technology from Al-Kitab University, Kirkuk (2020 - 2024)" }
+  ],
+  "langTitle": "Languages",
+  "languages": [
+    { "id": "1", "text": "Turkish (Native)" },
+    { "id": "2", "text": "Arabic (Fluent)" },
+    { "id": "3", "text": "English (Fluent)" }
+  ]
+}

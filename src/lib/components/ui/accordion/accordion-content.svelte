@@ -3,9 +3,9 @@
 	import { cn, type WithoutChild } from "$lib/utils.js";
 
 	let {
-		ref = $bindable(null),
-		class: className,
 		children,
+    ref = $bindable(null),
+    class: className,
 		...restProps
 	}: WithoutChild<AccordionPrimitive.ContentProps> = $props();
 </script>

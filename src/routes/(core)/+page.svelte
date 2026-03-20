@@ -7,7 +7,6 @@
   import HomeTempCard from "$lib/components/cards/HomeTempCard.svelte";
   import HomeWifiCard from "$lib/components/cards/HomeWifiCard.svelte";
   import HomeLayoutGrid from "$lib/components/layout/HomeLayoutGrid.svelte";
-  import Card from "$lib/components/ui/card/card.svelte";
 </script>
 
 <HomeLayoutGrid>
